@@ -13,7 +13,7 @@ from glob import glob
 
 for algorithm_file in glob('*py'):
     for dirpath, dirnames, filenames in os.walk('../benchmark-data/Simulated_Benchmark_Archive/'):
-        # In some directories, there are report files. Skip these files.                                                                                                                           
+        # In some directories, there are report files. Skip these files.
         if len(filenames) < 10 and len(dirpath) > 0:
             continue
 

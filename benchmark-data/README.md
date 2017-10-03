@@ -11,7 +11,7 @@ import os
 import sys
 
 for dirpath, dirnames, filenames in os.walk('Simulated_Benchmark_Archive/'):
-    # In some directories, there are report files. Skip these files.                                                                                                                           
+    # In some directories, there are report files. Skip these files.
     if len(filenames) < 10 and len(dirpath) > 0:
         continue
 
