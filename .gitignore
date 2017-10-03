@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Benchmark analysis and data files
+post-analysis/benchmark_results/*
+post-analysis/figures/*
+post-analysis/*gz

@@ -1,0 +1,9 @@
+GAMETES Version = 2.2_dev_peter
+
+Model Archive Used = /home/ryanurb/idata/models/Simulated_Benchmark_Archive/XOR/XOR_5way_Models.txt
+
+Sample Sizes Generated = [1600]
+Number of Attributes Generated = [20]
+Minimum Minor Allele Frequency for Noise Atributes = 0.01
+Maximum Minor Allele Frequency for Noise Atributes = 0.5
+Dataset Replicates Generated = 30
