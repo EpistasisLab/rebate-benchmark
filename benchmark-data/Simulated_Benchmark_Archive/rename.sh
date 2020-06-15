@@ -1,0 +1,21 @@
+#!/bin/bash
+for f in `find . -type f`; do
+    mv `echo "$f"` `echo "$f" | sed 's/\(.*\)\/.*_\(.*\)/\1\/\2/g'`
+done
+
+
+mv CA_Datasets_Loc_2_Qnt_2_Pop_100000	Cont_Feat_2wayEpi_Custom_2Pred
+mv CE_Threshold_Datasets_Loc_2_Qnt_2_Pop_100000	Cont_Outcome_Thresh_2wayEpi_Custom_2Pred
+mv GAMETES_2.2_dev_peter_2wayEpi_additive_Datasets_2Het_Loc_2_Qnt_2_Pop_100000	2Additive_2wayEpi_GAMETES_4Pred
+mv GAMETES_2.2_dev_peter_2wayEpi_contEndpoint_Datasets_Loc_2_Qnt_2_Pop_100000	Cont_Outcome_2wayEpi_GAMETES_2Pred
+mv GAMETES_2.2_dev_peter_2wayEpi_ImbalancedData_Datasets_Loc_2_Qnt_2_Pop_100000	Imbalanced_2wayEpi_GAMETES_2Pred
+mv GAMETES_2.2_dev_peter_2wayEpi_NA_Datasets_Loc_2_Qnt_2_Pop_100000	NA_2wayEpi_GAMETES_2Pred
+mv GAMETES_2.2_dev_peter_2wayEpiFeatures_Datasets_Loc_2_Qnt_2_Pop_100000	FeatCount_2wayEpi_GAMETES_2Pred
+mv GAMETES_2.2_dev_peter_2wayEpiHeterogeneity_Datasets_2Het_Loc_2_Qnt_2_Pop_100000	2Heterogeneity_2wayEpi_GAMETES_4Pred
+mv GAMETES_2.2_dev_peter_core2wayEpistasis_Datasets_Loc_2_Qnt_2_Pop_100000	Core_2wayEpi_GAMETES_2Pred
+mv GAMETES_2.2_dev_peter_epi_order_Datasets_Loc_3_Qnt_2_Pop_100000	3wayEpi_GAMETES_3Pred
+mv GAMETES_2.2_dev_peter_mainEff_additive_2_Datasets_2Het_Loc_1_Qnt_2_Pop_100000	2Additive_MainEff_GAMETES_2Pred
+mv GAMETES_2.2_dev_peter_mainEff_additive_4_Datasets_2Het_Loc_1_Qnt_2_Pop_100000	4Additive_MainEff_GAMETES_4Pred
+mv GAMETES_2.2_dev_peter_mainEff_Datasets_Loc_1_Qnt_2_Pop_100000	Core_MainEff_GAMETES_1Pred
+mv GAMETES_2.2_dev_peter_XOR	XOR
+mv MA_Datasets_Loc_2_Qnt_2_Pop_100000	MixedFeat_2wayEpi_GAMETES_2Pred
