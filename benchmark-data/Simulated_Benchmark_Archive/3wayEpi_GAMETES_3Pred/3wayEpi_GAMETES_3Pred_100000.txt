@@ -1,0 +1,9 @@
+GAMETES Version = 2.2_dev_peter
+
+Model Archive Used = GAMETES_2.2_dev_peter_epi_order_Models_Loc_3_Qnt_2_Pop_100000
+
+Sample Sizes Generated = [1600]
+Number of Attributes Generated = [20]
+Minimum Minor Allele Frequency for Noise Atributes = 0.01
+Maximum Minor Allele Frequency for Noise Atributes = 0.5
+Dataset Replicates Generated = 30
